@@ -12,6 +12,6 @@ jobs:
       - name: Not Failing step
         run: |
           echo "I will not fail"
-          exit 1
+          exit 0
       - name: Say Googbye
         run: echo "Goodbye"
